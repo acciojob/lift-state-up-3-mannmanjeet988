@@ -1,10 +1,13 @@
 
-import React from "react";
+import React,{useState} from "react";
 import './../styles/App.css';
+import Style from "./style.css"
+import Parent from "./Parent";
 
 const App = () => {
   return (
     <div>
+     <Parent />
         {/* Do not remove the main div */}
     </div>
   )
