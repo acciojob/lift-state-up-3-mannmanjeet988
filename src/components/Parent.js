@@ -15,7 +15,7 @@ return (
 
         <Child1  SetText={SetText} />
         <Child2  SetText={SetText} />
-        <p>Selected Option : {text} </p>
+        <p>Selected Option: {text} </p>
     </div>
 )
 
